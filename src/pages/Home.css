@@ -1,0 +1,86 @@
+.b-img{
+    max-width: 100%;
+    height: auto;
+    position: fixed;
+    top: -2rem;
+    z-index:-1;
+}
+.intro-container{
+    position: absolute;
+    left: 8rem;
+    top: 12rem;
+}
+.intro{
+    color: white;
+    font-weight: 700;
+    font-size: 1.678rem;
+    padding: 0px;
+    margin: 0px;
+}
+.name{
+    text-transform:capitalize;
+    color: white;
+    font-weight: 700;
+    font-size: 4rem;
+    padding: 0px;
+    margin: 0px;
+}
+.style{
+    background-color: rgb(255, 91, 20);
+    padding: 0px 5px;
+}
+.main-container{
+    position: relative;
+    top: 100vh;
+}
+.project-container,.skill-container,.contact-container{
+    color: White;
+    padding: 1rem 2rem;
+}
+.project-info-container,.skill-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.project-info-container div{
+    width: 8rem;
+    height: 8rem;
+    background-color: purple;
+}
+.skill-container{
+    position: relative;
+}
+.headings{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.skill-info-container{
+    font-size: 5rem;
+    text-align: center;
+}
+.skill-detail{
+    font-size: 1rem;
+}
+.nav-wrapper{
+    position: fixed;
+    min-width: 100%;
+    z-index: 100;
+}
+.project-container{
+    background-color: #590696;
+}
+.skill-container{
+    background-color: #C70A80;
+}
+.skill-sym{
+    border-radius: 1rem;
+    width: 10rem;
+    margin:1rem;
+    background-color: #590696;
+}
+.contact-container{
+    background-color: black;
+}
+.contact-subcontainer div p{
+    padding: 5px;
+    margin: 0;
+}

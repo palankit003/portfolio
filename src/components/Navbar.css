@@ -1,0 +1,38 @@
+.navbar{
+    position: fixed;
+    min-width: 97%;
+    z-index: 2;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.525);
+    color: black;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.navbar:hover{
+    background-color: black;
+    color: white;
+}
+.link-container{
+    position: relative;
+    width: 15rem;
+    justify-content: space-between;
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight:700;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-btn{
+    background-color:rgb(246, 71, 71);
+    padding: 0.5rem;
+    border-radius: .25rem;
+    font-weight: 700;
+    border:none;
+    color:white;
+}
